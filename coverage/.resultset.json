@@ -3,12 +3,20 @@
     "coverage": {
       "/Users/jaaronbrooksroberts/turing/1module/practice challenges/denver_public_library/lib/author.rb": [
         1,
+        null,
+        1,
         1,
         null,
         null,
         1,
         2,
         2,
+        2,
+        2,
+        null,
+        null,
+        1,
+        1,
         null,
         null,
         1,
@@ -16,8 +24,26 @@
         null,
         null,
         null
+      ],
+      "/Users/jaaronbrooksroberts/turing/1module/practice challenges/denver_public_library/lib/book.rb": [
+        1,
+        null,
+        1,
+        1,
+        null,
+        null,
+        null,
+        null,
+        1,
+        1,
+        1,
+        1,
+        1,
+        null,
+        null,
+        null
       ]
     },
-    "timestamp": 1537983960
+    "timestamp": 1537986764
   }
 }

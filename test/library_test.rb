@@ -21,11 +21,11 @@ class LibraryTest < Minitest::Test
 
     dpl.add_to_collection(jane_eyre)
     assert_equal [jane_eyre], dpl.books
-    assert_equal true, dpl.include?(jane_eyre)
+    assert_equal true, dpl.books.include?(jane_eyre)
 
     dpl.add_to_collection(villette)
     dpl.add_to_collection(harper_lee)
-    assert_equal true, dpl.include?(harper_lee)
-    assert_equal true, dpl.include?(villette)
+    assert_equal true, dpl.books.include?(harper_lee)
+    assert_equal true, dpl.books.include?(villette)
   end
 end

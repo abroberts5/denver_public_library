@@ -1,6 +1,24 @@
 {
   "Unit Tests": {
     "coverage": {
+      "/Users/jaaronbrooksroberts/turing/1module/practice challenges/denver_public_library/lib/book.rb": [
+        1,
+        null,
+        1,
+        1,
+        null,
+        null,
+        null,
+        null,
+        1,
+        3,
+        3,
+        3,
+        3,
+        null,
+        null,
+        null
+      ],
       "/Users/jaaronbrooksroberts/turing/1module/practice challenges/denver_public_library/lib/author.rb": [
         1,
         null,
@@ -16,34 +34,25 @@
         null,
         null,
         1,
-        1,
+        3,
         null,
         null,
-        1,
-        1,
+        3,
+        3,
         null,
         null,
         null
       ],
-      "/Users/jaaronbrooksroberts/turing/1module/practice challenges/denver_public_library/lib/book.rb": [
-        1,
-        null,
+      "/Users/jaaronbrooksroberts/turing/1module/practice challenges/denver_public_library/lib/library.rb": [
         1,
         1,
         null,
-        null,
-        null,
-        null,
         1,
-        1,
-        1,
-        1,
-        1,
-        null,
+        3,
         null,
         null
       ]
     },
-    "timestamp": 1537987811
+    "timestamp": 1537989824
   }
 }

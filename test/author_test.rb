@@ -1,5 +1,4 @@
 require './test/test_helper'
-require './lib/author'
 
 class AuthorTest < Minitest::Test
   def test_it_exists

@@ -18,8 +18,5 @@ class AuthorTest < Minitest::Test
     assert_equal "Jane Eyre", result.title
     assert_equal "Charlotte", result.author_first_name
     assert_equal "Bronte", result.author_last_name
-
-    # charlotte_bronte.add_book("Villette", "1853")
-    # assert_equal [], charlotte_bronte.books
   end
 end

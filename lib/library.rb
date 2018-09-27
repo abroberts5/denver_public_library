@@ -21,4 +21,16 @@ class Library
     end
     new_list
   end
+
+  def find_by_author(author)
+    @books.find_all do |book|
+      book.author_first_name == author.split(" ").first
+    end
+  end
+
+  def find_by_publication_date(date)
+    @books.find_all do |book|
+      book.publication_date == date
+    end
+  end
 end

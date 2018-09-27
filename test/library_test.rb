@@ -57,4 +57,20 @@ class LibraryTest < Minitest::Test
 
     assert_equal true, dpl.card_catalogue.include?(jane_eyre)
   end
+
+  def test_find_by_author_and_publication_date
+    dpl = Library.new
+    charlotte_bronte = Author.new({first_name: "Charlotte", last_name: "Bronte"})
+    harper_lee  = Author.new({first_name: "Harper", last_name: "Lee"})
+    jane_eyre = charlotte_bronte.add_book("Jane Eyre", "October 16, 1847")
+    villette  = charlotte_bronte.add_book("Villette", "1853")
+    mockingbird = harper_lee.add_book("To Kill a Mockingbird", "July 11, 1960")
+
+    dpl.add_to_collection(jane_eyre)
+    dpl.add_to_collection(villette)
+    dpl.add_to_collection(mockingbird)
+
+    assert_equal [jane_eyre, villette], dpl.find_by_author("Charlotte Bronte")
+    assert_equal [mockingbird], dpl.find_by_publication_date("1960")
+  end
 end

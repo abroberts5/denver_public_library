@@ -12,5 +12,4 @@ class Book
     @title              = book_hash[:title]
     @publication_date   = book_hash[:publication_date].split(", ").last
   end
-
 end
